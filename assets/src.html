@@ -1,0 +1,124 @@
+
+<!--Article Start-->
+<div class="article">
+    <h2><!--Article Title--></h2>
+    <div>
+        <!--Article Content-->
+    </div>
+    <div class="clear"></div>
+</div>
+<!--Article End-->
+
+<!--Line Breaker Start-->
+</div>
+<div>
+<!--Line Breaker End-->
+
+<!--Target Hit Start-->
+<a id="<!--Self ID-->" href="#<!--Opponent ID-->" class="dropdown">
+    <strong>
+        <!--Entry Content-->
+    </strong>
+    <div class="dropdown-content contrast frame">
+        <table class="fill">
+            <tr>
+                <td class="contrast-title">
+                    <a>对比句：</a>
+                </td>
+                <td>
+                    <!--Opponent Content-->
+                </td>
+            </tr>
+            <!--<tr>-->
+                <!--<td class="contrast-title">-->
+                    <!--<a>引用句：</a>-->
+                <!--</td>-->
+                <!--<td>-->
+                    <!--《颜延之传》里这样说： “颜延之间鲍照已与谢灵运优劣，照曰：‘谢五言诗如初发芙蓉，自然可爱，君诗如铺锦列绣，雕缋满眼。’” 六朝人说的芙蓉便是荷花，鲍照用“初发芙蓉”比谢灵运，实在令人羡慕，-->
+                <!--</td>-->
+            <!--</tr>-->
+        </table>
+    </div>
+</a>
+<!--Target Hit End-->
+
+<!--Source Hit Start-->
+<a id="<!--Self ID-->" href="#<!--Opponent ID-->">
+    <strong>
+        <!--Entry Content-->
+    </strong>
+</a>
+<!--Source Hit End-->
+
+<!--HTML Start-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>隐身衣项目</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript">
+        function usegud(){
+            //window.open("http://www.baidu.com");
+        }
+        function qanda(){
+            //window.open("http://www.baidu.com");
+        }
+        function copyright(){
+            //window.open("http://www.baidu.com");
+        }
+
+    </script>
+</head>
+<body>
+<table class="absolute fill">
+    <tr class="contenttr contentstyle" >
+        <td class="contentleft">
+            隐身衣项目（论文查重）
+        </td>
+        <td>
+            <table class="contentright">
+                <tr>
+                    <td><a class="content" onclick="usegud()">使用指南</a></td>
+                    <td><a class="content" onclick="qanda()">常见问题</a></td>
+                    <td><a class="content" onclick="copyright()">开发者选项</a></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" height="10%">
+            <div class="box">
+                <h1>您文章的相似度为：<a><!--Similarity-->%</a></h1>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%">
+            <div class="frame">
+                <div class="changed side-bar">
+                    <!--Article Target-->
+                </div>
+            </div>
+        </td>
+        <td width="50%">
+            <div class="frame">
+                <div class="origin side-bar">
+                    <!--Article Sources-->
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+</body>
+<script>
+    window.onload = window.onresize = function ()
+    {
+        var eles = document.getElementsByClassName("dropdown-content");
+        for(var i=0;i<eles.length;i++)
+            eles[i].style.width = eles[i].parentNode.parentNode.clientWidth + "px";
+    }
+</script>
+</html>
+<!--HTML End-->
